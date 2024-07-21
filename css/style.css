@@ -67,7 +67,7 @@ ul {
     background-color: rgb(111, 107, 107);
 }
 
-h1 {
+.awesome-website {
     color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
@@ -79,7 +79,7 @@ p {
     font-size: 16px;
 }
 
-h1, 
+.awesome-website, 
 button,
 p {
     margin-bottom: 8px;
@@ -92,4 +92,17 @@ button {
     width: 120px;
     height: 35px;
     font-size: 16px;
+}
+
+
+/** Info Section CSS **/
+
+.info-section {
+    height: 450px;
+}
+
+.random-header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
