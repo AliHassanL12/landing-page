@@ -30,7 +30,7 @@ ul {
 .header {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 450px;
     background-color: #1f2937;
 }
 
@@ -52,7 +52,7 @@ ul {
 }
 
 .website-descr {
-    width: 300px;
+    width: 400px;
     height: 220px;
     flex-shrink: 0;
 }
@@ -70,15 +70,26 @@ ul {
 h1 {
     color: #f9faf8;
     font-weight: 900;
+    font-size: 48px;
 }
 
 p {
     color: #e5e7eb;
     font-weight: 100;
+    font-size: 16px;
 }
 
 h1, 
 button,
 p {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
 }
