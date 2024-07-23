@@ -87,6 +87,7 @@ p {
 
 button {
     background-color: #3882f6;
+    border-color: #3882f6;
     color:#f9faf8;
     border-radius: 8px;
     width: 120px;
@@ -156,4 +157,45 @@ p.testimonial-text {
     color: #1f2937;
     font-weight: 900;
     padding-right: 20px;
+}
+
+/* Call to Action Section CSS */
+
+.call-to-action-wrapper {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-cta-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 800px;
+    height: 110px;
+    border-radius: 6px;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+#sign-up-btn {
+    border-color: rgba(255, 255, 255, 0.563);
+    margin: 0;
+}
+
+.cta-content .cta {
+    font-size: 20px;
+    color:#e5e7eb;
+    font-weight: 900;
+}
+
+.cta-content div {
+    color:#e5e7ebed;
 }
