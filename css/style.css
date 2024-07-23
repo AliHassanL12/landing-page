@@ -127,3 +127,22 @@ p.subtext {
     border: 4px solid #3882f6;
     margin-bottom: 12px;
 }
+
+/* Testimonial Section CSS */
+
+p.testimonial-text {
+    font-size: 36px;
+    color: #1f2937bf;
+    font-style: italic;
+    font-weight: 100;
+    width: 60%;
+    margin: 0;
+}
+
+.testimonial-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 450px;
+}
