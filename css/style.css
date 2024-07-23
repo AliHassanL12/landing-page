@@ -199,3 +199,14 @@ p.testimonial-text {
 .cta-content div {
     color:#e5e7ebed;
 }
+
+/* Footer Section CSS */ 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color:#1f2937;
+    color: rgba(255, 255, 255, 0.821);
+}
