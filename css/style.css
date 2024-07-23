@@ -98,7 +98,7 @@ button {
 /** Info Section CSS **/
 
 .info-section {
-    height: 450px;
+    height: 400px;
 }
 
 .random-header {
@@ -135,14 +135,25 @@ p.testimonial-text {
     color: #1f2937bf;
     font-style: italic;
     font-weight: 100;
-    width: 60%;
     margin: 0;
 }
 
 .testimonial-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #e5e7eb;
-    height: 450px;
+    height: 400px;
+    padding: 80px 300px;
+}
+
+.testimonial-author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#testimonial-author {
+    color: #1f2937;
+    font-weight: 900;
+    padding-right: 20px;
 }
